@@ -1,0 +1,193 @@
+.hospitalLandingPage {
+  width: 100%;
+  position: relative;
+  background-color: #f8fdff;
+  height: 353.313rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #002348;
+  font-family: "Source Sans Pro";
+}
+
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90.063rem;
+  height: 353.313rem;
+  overflow: hidden;
+}
+
+.whatOurCustomers {
+  position: absolute;
+  width: 41.43%;
+  top: calc(50% + 1183.5px);
+  left: 8.4%;
+  font-size: 3.375rem;
+  line-height: 4.875rem;
+  font-weight: 600;
+  color: #003b79;
+  display: inline-block;
+}
+
+.reviewLeft, .reviewRight {
+  position: absolute;
+  height: 5.2%;
+  width: 40.04%;
+  top: 73.52%;
+  box-shadow: 0 10px 50px 25px rgba(0, 59, 121, 0.07);
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.reviewLeft {
+  left: 8.4%;
+}
+
+.reviewRight {
+  right: 8.4%;
+}
+
+.reviewContainer {
+  position: relative;
+  padding: 2rem;
+}
+
+.ovalParent {
+  position: absolute;
+  height: 100%;
+  width: 11.5%;
+  top: -1rem;
+  right: 50.17%;
+  bottom: 25.31%;
+  left: 92%;
+  overflow: hidden;
+  font-size: 3.694rem;
+  color: #fff;
+  font-family: Hanuman;
+}
+
+.oval1 {
+  height: 93.6%;
+  width: 99.17%;
+  top: 0;
+  right: 0.83%;
+  bottom: 6.4%;
+  left: 0;
+  border-radius: 50%;
+  background-color: #007ff4;
+}
+
+.oval1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #007ff4;
+}
+
+.div {
+  position: absolute;
+  top: calc(50% - 27.7px);
+  left: 25%;
+  font-weight: 900;
+}
+
+.reviewText {
+  font-size: 1.25rem;
+  line-height: 2.438rem;
+  width: 90%;
+  position: absolute;
+}
+
+.reviewerName {
+  font-weight: 600;
+  margin-top: 1rem;
+
+  left: 18.75%;
+  position: absolute;
+  top: calc(270%);
+}
+
+
+.patient {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  top: calc(320%);
+  left: 18.75%;
+  position: absolute;
+}
+
+.ovalIcon {
+  position: absolute;
+  width: 9.5%;
+  top: 300%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+
+  right: 82.79%;
+  bottom: 22.18%;
+  left: 11%;
+}
+
+@media (max-width: 768px) {
+  .whatOurCustomers {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: center;
+    width: 30%;
+    left: 0%;
+  }
+
+  .reviewLeft, .reviewRight {
+    width: 26%;
+    left: 1%;
+    float: none;
+    margin: 0;
+    
+  }
+  
+  .reviewLeft {
+    top: 73%;
+  }
+
+  .reviewRight {
+    top: 79%;
+  }
+
+  
+  .reviewText {
+    width: 85%;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+  }
+
+  .reviewerName {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    left: 27%;
+    top: calc(300%);
+  }
+
+
+  .patient {
+    font-size: 1rem;
+    margin-top: 1.9rem;
+    left: 27%;
+  }
+
+  .ovalIcon {
+    width: 12%;
+    top: 328%;
+    left: 16%;
+  }
+
+  .ovalParent {
+    width: 16%;
+    left: 90%;
+  }
+}
